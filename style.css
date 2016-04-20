@@ -1,0 +1,65 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    padding: 10px;
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background: #000;
+}
+
+main,
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    color: inherit;
+    transition: .3s;
+}
+
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+:focus {
+    outline: 0;
+}
+
+.controls {
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #aaa;
+    padding: 10px 20px;
+    color: #aaa;
+    background: #333;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+    background: #666;
+    color: #ddd;
+    border-color: #ddd;
+}
+
